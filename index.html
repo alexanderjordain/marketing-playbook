@@ -7,31 +7,13 @@
 <style>*{box-sizing:border-box}img{max-width:100%}</style>
 <title>Texas New-Grad Marketing Playbook — Class of 2027</title>
 <style>
-  :root{
+  /* Single-theme by design: always cream paper with brown ink, in light or dark mode. */
+  :root, :root[data-theme="dark"], :root[data-theme="light"]{
     --paper:#FAF5EA; --card:#F2ECDC; --wash:#EBE3CF; --ink:#4E3A2A; --muted:#98816B;
     --line:#E5DCC6; --accent:#C25B7C; --accent-soft:#D26E8C; --gold:#B08246; --gold-bg:#F2E6CE;
     --good:#5F7D52; --warn:#A87E38; --bad:#B05E44; --chip-a:#F7DBE3; --chip-b:#EFE9D8; --chip-c:#F2E5D2;
     --band:#C25B7C; --band-ink:#FFF7F0; --shadow:none;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --paper:#241C14; --card:#2F261B; --wash:#382E21; --ink:#F2E8D8; --muted:#B5A18A;
-      --line:#463A29; --accent:#E799B1; --accent-soft:#D7849D; --gold:#D5AC6E; --gold-bg:#41341F;
-      --good:#A6C29C; --warn:#D5AC6E; --bad:#DA9880; --chip-a:#4A2E38; --chip-b:#3B3324; --chip-c:#423625;
-      --band:#83405A; --band-ink:#F7E9EE; --shadow:none;
-    }
-  }
-  :root[data-theme="dark"]{
-    --paper:#241C14; --card:#2F261B; --wash:#382E21; --ink:#F2E8D8; --muted:#B5A18A;
-    --line:#463A29; --accent:#E799B1; --accent-soft:#D7849D; --gold:#D5AC6E; --gold-bg:#41341F;
-    --good:#A6C29C; --warn:#D5AC6E; --bad:#DA9880; --chip-a:#4A2E38; --chip-b:#3B3324; --chip-c:#423625;
-    --band:#83405A; --band-ink:#F7E9EE; --shadow:none;
-  }
-  :root[data-theme="light"]{
-    --paper:#FAF5EA; --card:#F2ECDC; --wash:#EBE3CF; --ink:#4E3A2A; --muted:#98816B;
-    --line:#E5DCC6; --accent:#C25B7C; --accent-soft:#D26E8C; --gold:#B08246; --gold-bg:#F2E6CE;
-    --good:#5F7D52; --warn:#A87E38; --bad:#B05E44; --chip-a:#F7DBE3; --chip-b:#EFE9D8; --chip-c:#F2E5D2;
-    --band:#C25B7C; --band-ink:#FFF7F0; --shadow:none;
+    color-scheme: light;
   }
   html{scroll-behavior:smooth}
   @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
